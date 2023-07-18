@@ -1,0 +1,61 @@
+.card {
+	width: 40vw;
+	height: 200px;
+	margin: 50px;
+	padding: 20px;
+	padding-top: 5px;
+}
+
+.card.border {
+	border: 5px solid #f00;
+}
+
+.card .address {
+	font-size: 18px;
+	color: #1E9D44;
+	font-weight: bold;
+	border-bottom: 2px solid #000;
+}
+
+.card .text {
+	font-size: 13px;
+	margin-left: 5px;
+	text-decoration:underline;
+}
+
+.card .hours {
+	font-size: 13px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.card .mile {
+	font-size: 13px;
+	margin-left: 5px;
+	color:#62146d;	
+	font-weight: bold;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr) auto auto;
+	grid-gap: 1px;
+}
+
+.button {
+	color: #fff;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	width: 200px;
+	height: 30px;
+	font-size: 17px;
+	margin-bottom: 4px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,.22);
+	padding: 5px;
+	background-color: #35792a;
+}
+
+.button:hover {
+	background-color: #62146d;
+}
